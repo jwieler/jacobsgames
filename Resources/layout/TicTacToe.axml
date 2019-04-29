@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1" >
+    <TextView
+        android:text="Choose a mode"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/txtChoose" />
+    <Button
+        android:text="Single Player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSingle" />
+    <Button
+        android:text="Two Player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTwo" />
+   <GridLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="1"
+            android:id="@+id/gridLayout1">
+
+          <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+         <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+                
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    />
+             <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+               <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+            </LinearLayout>
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+         <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+                
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+             <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+               <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+            </LinearLayout>
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+         <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+                
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+             <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+               <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/space2" />
+            </LinearLayout>
+
+
+        </GridLayout>
+    
+</LinearLayout>
